@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap'); 
+
+body {
+    background-color: #FAF9F6;
+    /* font style for body */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* To reapply styles multiple times */ 
+:root {
+    --text: center;
+}
+
+/* color of h1 title */ 
+h1, h2, h3, p {
+    text-align: var(--text);
+    font-family: sans-serif;
+}
+
+/* For sub-sections */ 
+.margin-spacing {
+    margin-top: 30px;
+    /* Neon blue */
+    color: #1F51FF;
+}
+
+/* To push text away from the edges of the page */
+p {
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* To center tribute image */ 
+#tribute-img, #nike-collab {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    cursor: pointer;
+}
+
+/* To center YT link */
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+}
+
+footer {
+    margin: 30px;
+    text-align: right;
+}
+
+/* For anchor link in footer */ 
+#Github-link {
+    text-decoration: none;
+    color: #191970;
+    text-transform: uppercase;
+}
+
+/* User interactivity */ 
+#Github-link :hover {
+    color: red;
+}
+ /* To align image captions to the center */ 
+figcaption {
+    text-align: var(--text);
+}
+
+/* Responsive Design for smaller Phones */
+@media only screen and (max-width: 380px) {
+    #tribute-img {
+        /* For full image to appear */ 
+        object-fit: cover;
+        width: 100%;
+    }
+    #nike-collab {
+        object-fit: cover;
+        width: 100%;
+    }
+    iframe {
+        object-fit: cover;
+        width: 80%;
+        /* To center video */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body {
+        background-color: #fff;
+    }
+    /* size of text */ 
+    p {
+        font-family: 'sans-serif';
+        font-size: 16px;
+    }
+    #Github-link {
+        color: blue;
+        font-size: 20px;
+    }
+    .margin-spacing {
+        color: blue;
+        text-transform: uppercase;
+    }
+    /* Capitalized text in footer */
+    footer {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+}
+
+
+/* Responsive Design for Phones */
+@media only screen and (max-width: 480px) {
+    #tribute-img {
+        /* For full image to appear */ 
+        object-fit: cover;
+        width: 100%;
+    }
+    #nike-collab {
+        object-fit: cover;
+        width: 100%;
+    }
+    iframe {
+        object-fit: cover;
+        width: 80%;
+        /* To center video */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body {
+        background-color: #fff;
+    }
+    /* size of text */ 
+    p {
+        font-family: 'sans-serif';
+        font-size: 22px;
+    }
+    #Github-link {
+        color: blue;
+        font-size: 20px;
+    }
+    .margin-spacing {
+        color: blue;
+        text-transform: uppercase;
+    }
+    /* Capitalized text in footer */
+    footer {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+}
+
+/* Responsive design for Tablets */ 
+@media only screen and (max-width: 768px) {
+    #tribute-img {
+        /* For full image to appear */ 
+        object-fit: cover;
+        width: 100%;
+    }
+    #nike-collab {
+        object-fit: cover;
+        width: 100%;
+    }
+    iframe {
+        object-fit: cover;
+        width: 80%;
+        /* To center video */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body {
+        background-color: #fff;
+    }
+    p {
+        font-family: 'sans-serif';
+        font-size: 28px;
+    }
+    #Github-link {
+        color: blue;
+        font-size: 24px;
+    }
+    /* increased size of H3 titles */ 
+    .margin-spacing {
+        color: blue;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    footer {
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    #footer-name {
+        font-weight: bold;
+        color: #000;
+    }
+}
+
+/* Responsive design for Ipad AIR */ 
+@media only screen and (max-width: 820px) {
+    #tribute-img {
+        /* For full image to appear */ 
+        object-fit: cover;
+        width: 100%;
+    }
+    #nike-collab {
+        object-fit: cover;
+        width: 100%;
+    }
+    iframe {
+        object-fit: cover;
+        width: 80%;
+        /* To center video */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body {
+        background-color: #fff;
+    }
+    p {
+        font-family: 'sans-serif';
+        font-size: 30px;
+    }
+    #Github-link {
+        color: blue;
+        font-size: 24px;
+    }
+    /* increased size of H3 titles */ 
+    .margin-spacing {
+        color: blue;
+        text-transform: uppercase;
+        font-size: 26px;
+    }
+    footer {
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    #footer-name {
+        font-weight: bold;
+        color: #000;
+    }
+}
